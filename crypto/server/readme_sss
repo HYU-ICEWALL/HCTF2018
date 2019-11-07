@@ -1,0 +1,16 @@
+crypto_hard_SSS
+main
+
+crypto hard problem: Salt Signature System
+
+퉷! 뭐 이리짜?
+
+이봐. 주인장! 거 메세지에 소금이 너무 들어간거 아니오?
+
+[   nc 54.180.60.212 3003   ]
+
+1000
+15
+100
+
+설명: salt 해독

@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  hctf2018_crpyto:
+    container_name: hctf2018_crpyto
+    build: .
+    ports:
+      - '3001:3001'
+      - '3002:3002'
+      - '3003:3003'

@@ -1,0 +1,18 @@
+crypto_easy_CCC
+main
+
+crypto easy problem: Classical Cipher Challenge
+
+CC와 CCC중 뭐가 더 위험할까?
+
+둘 다 샹들리에를 타고 노는 것과 비슷한 것 같다.
+
+[   nc 54.180.60.212 3001   ] 에서 놀아보자!
+
+ps. 획득한 flag가 이상하다고 생각하실 수 있지만, 이는 문제 오류가 아닙니다.
+
+1000
+15
+100
+
+설명: 5번의 해독

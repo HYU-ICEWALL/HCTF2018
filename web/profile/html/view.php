@@ -1,0 +1,1 @@
+<?php include rand(1,6).'.html' ?>

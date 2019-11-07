@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Civic - CV Resume</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Civic - CV Resume">
+	<meta name="keywords" content="resume, civic, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="res_img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="res_css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="res_css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="res_css/flaticon.css"/>
+	<link rel="stylesheet" href="res_css/owl.carousel.css"/>
+	<link rel="stylesheet" href="res_css/magnific-popup.css"/>
+	<link rel="stylesheet" href="res_css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	
+	<div class="home-two-style">
+		<!-- Hero section start -->
+		<section class="hero-section spad">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-10 offset-xl-1">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="hero-text">
+									<h2><?php echo $_SESSION['name'] ?></h2>
+									<p><?php echo $_SESSION['message'] ?></p>
+								</div>
+								<div class="hero-info">
+									<h2>General Info</h2>
+									<ul>
+										<li><span>The best Language</span><?php echo $_SESSION['service'] ?></li>
+										<li><span>E-mail</span><?php echo $_SESSION['email'] ?></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-6 text-md-center">
+								<figure class="hero-image">
+									<img src="<?php echo $_SESSION['img'] ?>" alt="5">
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Hero section end -->
+
+		<!-- Social links section start -->
+		<div class="social-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-10 offset-xl-1">
+						<div class="social-link-warp">
+							<div class="social-links">
+								<a href=""><i class="fa fa-pinterest"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+							</div>
+							<h2 class="hidden-md hidden-sm">My Social Profiles</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- Social links section end -->
+
+		<!-- Footer section start -->
+		<footer class="footer-section">
+			<div class="container text-center">
+				<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+			</div>
+		</footer>
+		<!-- Footer section end -->
+	</div>
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="res_js/jquery-2.1.4.min.js"></script>
+	<script src="res_js/bootstrap.min.js"></script>
+	<script src="res_js/owl.carousel.min.js"></script>
+	<script src="res_js/magnific-popup.min.js"></script>
+	<script src="res_js/circle-progress.min.js"></script>
+	<script src="res_js/main.js"></script>
+</body>
+</html>

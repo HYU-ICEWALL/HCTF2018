@@ -1,0 +1,17 @@
+version: '2.0'
+services:
+  hctf2018_web_yuhuiwang:
+    container_name: hctf2018_web_yuhuiwang
+    build: yuhuiwang
+    ports:
+      - '8001:80'
+  hctf2018_web_profile:
+    container_name: hctf2018_web_profile
+    build: profile
+    ports:
+      - '8002:80'
+  hctf2018_web_calc:
+    container_name: hctf2018_web_calc
+    build: calc
+    ports:
+      - '8003:80'

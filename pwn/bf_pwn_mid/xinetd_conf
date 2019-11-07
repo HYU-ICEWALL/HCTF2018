@@ -1,0 +1,12 @@
+service bf
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = bf
+    bind        = 0.0.0.0
+    server      = /home/bf/bf
+    type        = UNLISTED
+    port        = 1002
+}

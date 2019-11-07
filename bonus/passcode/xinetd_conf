@@ -1,0 +1,12 @@
+service passcode
+{
+	disable = no
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = passcode
+	bind = 0.0.0.0
+	server = /home/passcode/passcode
+	type = UNLISTED
+	port = 1005
+}
